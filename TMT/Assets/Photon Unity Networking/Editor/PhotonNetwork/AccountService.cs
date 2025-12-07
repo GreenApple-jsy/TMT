@@ -19,7 +19,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using ExitGames.Client.Photon;
-using Newtonsoft.Json;
+using Unity.Plastic.Newtonsoft.Json;
 
 
 public class AccountService
