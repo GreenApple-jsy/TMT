@@ -38,7 +38,7 @@ public class NickNameManager : Photon.PunBehaviour
     {
         this.GetComponent<AudioSource>().clip = OkButtonClickSound;
         this.GetComponent<AudioSource>().Play();
-        //Characters.SetActive(false);
+        Characters.SetActive(false);
         ChangeNickNamePanel.SetActive(true);
     }
 
