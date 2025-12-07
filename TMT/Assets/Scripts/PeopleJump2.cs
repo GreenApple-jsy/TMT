@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +8,7 @@ public class PeopleJump2 : MonoBehaviour {
     public bool NumeratorGoingOn;
 
     void Start () {
-        RandomJumpSpeed = Random.Range(3f, 6.5f);
+        RandomJumpSpeed = Random.Range(2f, 5.5f);
         IsGoingUp = true;
         NumeratorGoingOn = false;
     }
